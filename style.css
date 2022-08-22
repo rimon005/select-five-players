@@ -1,0 +1,20 @@
+/*======== Font family ===========*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Gruppo&family=Josefin+Sans&family=Poppins:ital,wght@0,400;0,500;1,300&family=Teko:wght@600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.hero-area{
+    background-image: url(./images/Screenshot\ 2022-08-21\ 225401.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100vw;
+}
+.hreo-contant{
+    margin-left: 3rem;
+    margin-top: 17rem;
+}
+.banar-pera{
+    margin-right: 10rem;
+}
