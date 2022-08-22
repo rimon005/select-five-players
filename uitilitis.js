@@ -10,12 +10,12 @@ function playerName(event){
 
 function disabledBtn(myBtn) {
      document.getElementById(myBtn).disabled = true;
-
   }
 
   function costField (costEvent){
 
     const costInput = document.getElementById(costEvent);
     const cost = parseFloat(costInput.value);
+    costInput.value = '';
     return cost;
-}
+  }

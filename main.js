@@ -32,15 +32,35 @@ document.getElementById('player-6').addEventListener('click' ,function(){
 })
 
 
+
 document.getElementById('claculate-btn').addEventListener('click' , function(){
     const playerExpense = costField('player-expense');
-    console.log(playerExpense)
+    if(isNaN(playerExpense)){
+        alert('Please input the valid number')
+        return;
+      }
     const playerCostField =document.getElementById('total-palyerCost');
-    const playerCost = parseFloat(playerCostField.innerText)
-
-    const playerTotalCost = playerExpense * ( document.querySelectorAll('li').length); ;
+    const playerCost = parseFloat(playerCostField.innerText);
+    const playerTotalCost  = playerExpense * document.querySelectorAll('li').length ;
     playerCostField.innerText = playerTotalCost;
-
-
 })
 
+
+document.getElementById('claculate-total-btn').addEventListener('click' , function(){
+   const totalPlayerCost = document.getElementById('total-palyerCost');
+   const playerCost = parseFloat(totalPlayerCost.innerText);
+
+   const managerCost = costField('manager');
+   const coachCost = costField('coach');
+   if(isNaN(managerCost && coachCost)){
+    alert('Please input the valid number')
+    return;
+  }
+
+   
+
+   const totalCost = playerCost + managerCost + coachCost;
+   const totalExpensesField = document.getElementById('total-expenses');
+   totalExpensesField.innerText = totalCost;
+
+})
