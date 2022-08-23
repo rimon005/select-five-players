@@ -31,6 +31,34 @@ document.getElementById('player-6').addEventListener('click' ,function(){
     disabledBtn('player-6')
 })
 
+document.getElementById('player-7').addEventListener('click' ,function(){
+    const player6 = playerName('seventh-player-name');
+    disabledBtn('player-7')
+})
+
+document.getElementById('player-8').addEventListener('click' ,function(){
+    const player6 = playerName('eighth-player-name');
+    disabledBtn('player-8')
+})
+
+document.getElementById('player-9').addEventListener('click' ,function(){
+    const player6 = playerName('ninth-player-name');
+    disabledBtn('player-9')
+})
+
+document.getElementById('player-10').addEventListener('click' ,function(){
+    const player6 = playerName('tenth-player-name');
+    disabledBtn('player-10')
+})
+document.getElementById('player-11').addEventListener('click' ,function(){
+    const player6 = playerName('eleventh-player-name');
+    disabledBtn('player-11')
+})
+document.getElementById('player-12').addEventListener('click' ,function(){
+    const player6 = playerName('twelfth-player-name');
+    disabledBtn('player-12')
+})
+
 
 
 document.getElementById('claculate-btn').addEventListener('click' , function(){
