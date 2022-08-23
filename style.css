@@ -19,8 +19,11 @@ body{
     margin-right: 10rem;
 }
 .palyer-list{
-    height: 285px;
+    min-height: 285px;
 }
 .manegment-cost{
     background-color: #075571;
+}
+.select-btn{
+    background-color: rgb(79, 74, 237);
 }

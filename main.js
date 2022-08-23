@@ -56,9 +56,6 @@ document.getElementById('claculate-total-btn').addEventListener('click' , functi
     alert('Please input the valid number')
     return;
   }
-
-   
-
    const totalCost = playerCost + managerCost + coachCost;
    const totalExpensesField = document.getElementById('total-expenses');
    totalExpensesField.innerText = totalCost;
